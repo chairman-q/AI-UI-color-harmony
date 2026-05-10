@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/Version-1.0--rc.1-blue.svg) ![ReleaseType](https://img.shields.io/badge/Release%20Candidate-yellowgreen.svg) ![Lang](https://img.shields.io/badge/Python-3.9+-blue.svg)
 
-An intelligent UI/UX design assistant that utilizes XGBoost Regression to evaluate the harmony of 5-color palettes based on the "Modern UI Rule" (Analogous + Accent).
+A machine learning model that utilizes XGBoost Regression to evaluate the harmony of 5-color palettes based on the **"Modern UI Rule" (Analogous + Accent)**.
 
 ---
 
@@ -30,6 +30,8 @@ Instead of forcing the AI to learn from raw pixels, this project transforms colo
 - **Glassmorphism UI:** A high-end Streamlit dashboard designed with modern web aesthetics.
 - **Automated Data Synthesizer:** Includes a script to generate 5,000+ samples with "Hard Negatives" (common design mistakes) to robustly train the AI.
 
+*Note: This project currently uses mixed English/Vietnamese text in code and UI.*
+
 ## 🛠️ Tech Stack
 
 - **Core:** Python 3.9+
@@ -40,7 +42,7 @@ Instead of forcing the AI to learn from raw pixels, this project transforms colo
 
 ---
 
-## 🚀 Installation & Usage
+## 🚀 Installation & Running
 
 **1. Clone the repository**
 
@@ -48,15 +50,33 @@ Instead of forcing the AI to learn from raw pixels, this project transforms colo
 git clone https://github.com/chairman-q/AI-UI-color-harmony.git
 ```
 
-**2. Install dependencies**
+**2. Create virtual environment**
+
+```bash
+python -m venv .venv
+```
+
+**3. Activate virtual environment:**
+
+- Windows (PowerShell)
+
+```bash
+.venv\Scripts\Activate.ps1
+```
+
+- macOS/Linux
+
+```bash
+source .venv/bin/activate
+```
+
+**4. Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**3. Run the Application**
-
-To start the interactive evaluator:
+**5. Run the app**
 
 ```bash
 streamlit run app.py
@@ -104,6 +124,12 @@ ML4D_UICOLORHARMONY
 ├── README.md               # Project documentation
 └── requirements.txt        # List of dependencies
 ```
+
+---
+
+## 🌐 Deployment
+
+This project is being deployed at [uiharmony.streamlit.app](https://uiharmony.streamlit.app).
 
 ---
 
