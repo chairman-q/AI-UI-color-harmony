@@ -1,0 +1,8 @@
+﻿.venv/
+venv/
+ENV/
+env/
+bin/
+include/
+share/
+__pycache__/
