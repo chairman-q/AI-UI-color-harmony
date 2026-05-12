@@ -1,6 +1,7 @@
 # 🎨 AI Evaluator for Modern UI Color Harmony
 
-![Version](https://img.shields.io/badge/Version-1.0--rc.1-blue.svg) ![ReleaseType](https://img.shields.io/badge/Release%20Candidate-yellowgreen.svg) ![Lang](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.0--rc.1-blue?style=for-the-badge) ![ReleaseType](https://img.shields.io/badge/Release%20Candidate-yellowgreen?style=for-the-badge)
+![Lang](https://img.shields.io/badge/Language-Python%20(3.9+)-blue?style=for-the-badge) ![License](https://img.shields.io/badge/License-AGPL--3.0-important?style=for-the-badge)
 
 A machine learning model that utilizes XGBoost Regression to evaluate the harmony of 5-color palettes based on the **"Modern UI Rule" (Analogous + Accent)**.
 
